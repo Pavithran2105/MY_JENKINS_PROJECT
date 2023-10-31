@@ -23,15 +23,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        success {
-            // Actions to take if the pipeline succeeds
-            sh 'echo "Pipeline succeeded"'
-        }
-        failure {
-            // Actions to take if the pipeline fails
-            sh 'echo "Pipeline failed"'
-        }
-    }
 }
